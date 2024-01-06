@@ -59,7 +59,9 @@ span {
 .banner-section {
     display: flex;
     align-items: center;
-    padding-left: 230px;
+    margin: 0px 130px;
+    /* justify-content: space-around; */
+    /* padding-left: 230px; */
 
 }
 
@@ -84,10 +86,9 @@ span {
 }
 
 
-.banner-img img {
-    width: 500px;
-    height: 500px;
-    padding-right: 100px;
+.banner-img {
+    width: 584px;
+    height: 674px;
 }
 
 .about-section {
@@ -166,4 +167,48 @@ span {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+
+.resume-details {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 110px 100px;
+}
+
+.resume-column {
+    /* background-color: aquamarine; */
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.degree {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.versity {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.degree-details {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    /* line-height: 28px; */
+    /* 175% */
+}
+
+hr {
+    margin-bottom: 30px;
 }
