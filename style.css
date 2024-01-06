@@ -63,7 +63,9 @@ span {
 
 }
 
-.banner-content {}
+.banner-content {
+    max-width: 550px;
+}
 
 .banner-heading {
     color: #181818;
@@ -81,10 +83,51 @@ span {
     margin: 20px 0px;
 }
 
-.banner-img {}
 
 .banner-img img {
     width: 500px;
     height: 500px;
     padding-right: 100px;
+}
+
+.about-section {
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px auto;
+}
+
+.section-heading {
+    text-align: center;
+    padding-top: 130px;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 130px;
+    padding-top: 30px;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.about-me p {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-me h4 {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
 }
