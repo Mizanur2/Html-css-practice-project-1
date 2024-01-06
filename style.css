@@ -16,6 +16,9 @@ span {
 
 .header-section {
     background-color: #FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .navigation {
@@ -44,10 +47,44 @@ span {
 
 .btn {
     background-color: #FD6E0A;
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
     color: white;
     font-size: 20px;
     font-weight: 400;
+    margin-right: 10px;
     border-radius: 5px;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    padding-left: 230px;
+
+}
+
+.banner-content {}
+
+.banner-heading {
+    color: #181818;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner-tag {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-description {
+    margin: 20px 0px;
+}
+
+.banner-img {}
+
+.banner-img img {
+    width: 500px;
+    height: 500px;
+    padding-right: 100px;
 }
